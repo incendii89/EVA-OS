@@ -158,8 +158,24 @@ pnpm ios
 
 #### Android 运行
 ```bash
+# 先生成 debug keystore 文件, 放到 /android/app 下
+keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
+
 # 启动 Android 模拟器或真机
 pnpm android
+```
+
+##### 生成 Keystore 签名文件 (可选)
+如果你需要构建发布版本 (Release Build)，需生成 `.keystore` 签名文件。详细步骤请参考官方文档：[React Native - Signed APK Android](https://reactnative.dev/docs/signed-apk-android)。
+
+生成密钥命令示例：
+
+```bash
+# macOS
+sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+# Windows
+keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 ## 🛠 技术栈

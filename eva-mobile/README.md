@@ -159,14 +159,32 @@ EXPO_PUBLIC_WSS_URL=wss://rtc.autoarkai.com
 Because this project uses native modules (WebRTC, Audio, Camera),
 you must build an Expo Development Build — Expo Go will NOT work.
 
-iOS
+#### iOS
 ```bash
 pnpm ios
 ```
 
-Android
+#### Android
 ```bash
+# First, generate the debug keystore file and place it in /android/app
+keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
+
+# Start Android emulator or real device
 pnpm android
+```
+
+##### Generate Keystore Signing File (Optional)
+
+If you need to build a release version, you need to generate a `.keystore` signing file. For detailed steps, please refer to the official documentation: [React Native - Signed APK Android](https://reactnative.dev/docs/signed-apk-android).
+
+Example to generate a key:
+
+```bash
+# macOS
+sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+# Windows
+keytool -genkeypair -v -storetype PKCS12 -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 ## Tech Stack
