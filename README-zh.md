@@ -180,11 +180,6 @@ EVA愿景：赋能每一台设备，觉醒具备自主交互、执行与记忆�
 * Issue / 需求
 
 **让我们携手，构建最开放、最完整的实时多模态AI硬件生态！**
-### 加入我们的天使用户群聊，碰撞出无限火花
-微信码不定时更新，请关注issue：https://github.com/AutoArk/EVA-OS/issues/2
-
-<img src="https://github.com/user-attachments/assets/08e977c5-b570-4a78-a562-e40d1cc5431c" width="200" />
-
 
 ## 📄 License
 
