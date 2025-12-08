@@ -187,12 +187,6 @@ You can contribute:
 
 **Let’s build the most open and complete real-time multimodal AI hardware ecosystem—together!**
 
-### Join our early-access user group
-
-WeChat QR code updated periodically — follow this issue: https://github.com/AutoArk/EVA-OS/issues/2
-
-<img src="https://github.com/user-attachments/assets/08e977c5-b570-4a78-a562-e40d1cc5431c" width="200" />
-
 ## 📄 License
 
 EVA OS is released under the MIT License.
