@@ -105,7 +105,7 @@ class EvaClient:
         frame_size_ms (int, optional): 
             Duration of a single audio frame in milliseconds. Defaults to 60ms.
         camera_index (int, optional): 
-            Index of the camera device (usually 0 for /dev/video0). Defaults to 0.
+            Index of the camera device. Defaults to 0.
         video_width (int, optional): 
             Video capture width. Defaults to 640.
         video_height (int, optional): 

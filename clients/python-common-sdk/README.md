@@ -29,7 +29,7 @@ This project depends on the `PortAudio` library. You **must** install the system
 1.  **Clone the repository:**
     ```bash
     git clone git@github.com:AutoArk/EVA-OS.git
-    cd EVA-OS
+    cd EVA-OS/clients/python-common-sdk
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -65,7 +65,7 @@ EVA_API_KEY=YOUR_ACTUAL_API_KEY_HERE
 | **mic_channels** | `int` | No | `1` | **Microphone Channels**.<br>`1` for Mono, `2` for Stereo. |
 | **spk_channels** | `int` | No | `1` | **Speaker Channels**.<br>`1` for Mono, `2` for Stereo. |
 | **frame_size_ms** | `int` | No | `60` | **Audio Frame Duration (ms)**.<br>Time length of audio data blocks processed or transmitted per cycle. Affects latency and packet size. |
-| **camera_index** | `int` | No | `0` | **Camera Device Index**.<br>Usually `0` corresponds to `/dev/video0`. If multiple cameras exist, try sequentially. |
+| **camera_index** | `int` | No | `0` | **Camera Device Index**.<br>Usually `0` represents the system default cameras. If multiple cameras exist, try sequentially. |
 | **video_width** | `int` | No | `640` | **Video Width**.<br>Horizontal pixel count for camera capture. It is recommended not to set this too high on ARM devices. |
 | **video_height** | `int` | No | `480` | **Video Height**.<br>Vertical pixel count for camera capture. |
 | **video_fps** | `int` | No | `30` | **Video Frame Rate**.<br>Frames per second (FPS). Recommended to set to 15 or 20 on low-performance devices to reduce load. |
@@ -95,7 +95,7 @@ python python_example.py
 1.  The client starts and initializes the audio system and camera.
 2.  Requests an authentication Token and connects to the WebRTC room.
 3.  Activates the specified microphone device and starts publishing the audio stream.
-4.  Activates the specified camera device (default `/dev/video0`) and starts publishing the video stream.
+4.  Activates the specified camera device and starts publishing the video stream.
 5.  Subscribes to audio streams in the room and plays them through the specified speaker device.
 
 ## Troubleshooting

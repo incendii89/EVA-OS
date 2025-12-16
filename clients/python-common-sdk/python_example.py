@@ -7,6 +7,7 @@ from eva_client import EvaClient
 load_dotenv()
 
 async def main():
+    # Please adjust the microphone/speaker/camera index according to your actual situation.
     client = EvaClient(
         api_key=os.getenv("EVA_API_KEY"),
         mic_index=1,

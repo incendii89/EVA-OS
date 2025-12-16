@@ -29,7 +29,7 @@
 1.  **克隆代码仓库:**
     ```bash
     git clone git@github.com:AutoArk/EVA-OS.git
-    cd EVA-OS
+    cd EVA-OS/clients/python-common-sdk
     ```
 
 2.  **创建并激活虚拟环境 (推荐):**
@@ -65,7 +65,7 @@ EVA_API_KEY=YOUR_ACTUAL_API_KEY_HERE
 | **mic_channels** | `int` | 否 | `1` | **麦克风通道数**。<br>`1` 表示单声道 (Mono)，`2` 表示立体声 (Stereo)。 |
 | **spk_channels** | `int` | 否 | `1` | **扬声器通道数**。<br>`1` 表示单声道 (Mono)，`2` 表示立体声 (Stereo)。 |
 | **frame_size_ms** | `int` | 否 | `60` | **音频帧时长 (毫秒)**。<br>每次处理或传输的音频数据块的时间长度。这会影响延迟和网络包的大小。 |
-| **camera_index** | `int` | 否 | `0` | **摄像头设备索引**。<br>通常 `0` 对应 `/dev/video0`。若有多个摄像头，请依序尝试。 |
+| **camera_index** | `int` | 否 | `0` | **摄像头设备索引**。<br>通常 `0` 对应默认系统摄像头。若有多个摄像头，请依序尝试。 |
 | **video_width** | `int` | 否 | `640` | **视频宽度**。<br>摄像头捕获图像的水平像素数。ARM 设备建议不要设置过高。 |
 | **video_height** | `int` | 否 | `480` | **视频高度**。<br>摄像头捕获图像的垂直像素数。 |
 | **video_fps** | `int` | 否 | `30` | **视频帧率**。<br>每秒传输的帧数 (FPS)。在低性能设备上建议设为 15 或 20 以降低负载。 |
@@ -95,7 +95,7 @@ python python_example.py
 1.  客户端启动并初始化音频系统和摄像头。
 2.  请求认证 Token 并连接到 WebRTC 房间。
 3.  激活指定的麦克风设备，开始推送音频流。
-4.  激活指定的摄像头设备 (默认 `/dev/video0`)，开始推送视频流。
+4.  激活指定的摄像头设备，开始推送视频流。
 5.  订阅房间内的音频流，并通过指定的扬声器设备播放。
 
 ## 故障排除
